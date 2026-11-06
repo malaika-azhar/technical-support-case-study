@@ -227,7 +227,8 @@ These gaps are listed instead of hidden, so the document shows what was actually
 ## 📁 Repo Structure
 
 ```text
-support-assessment/
+
+technical-support-case-study
 |-- README.md
 `-- Malaika_Azhar_TechAbout_Customer_Support_Assessment_updated.pdf
 ```
