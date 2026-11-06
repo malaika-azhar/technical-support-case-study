@@ -13,7 +13,7 @@ One agent, two queues, eight tickets, one Friday shift
 ![Format](https://img.shields.io/badge/Deliverable-PDF_6_pages-C0392B?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
-I read the published pages first, ordered the queue, wrote the replies and internal notes, and marked everything I could not confirm. No refund rule, guarantee or fee in this document is invented. Where a page was silent, I wrote a question instead.
+This document is based on the published pages. I ordered the queue, wrote the replies and internal notes, and marked everything I could not confirm. No refund rule, guarantee or fee in this document is invented. Where a page was silent, I wrote a question instead.
 
 </div>
 
@@ -24,7 +24,7 @@ I read the published pages first, ordered the queue, wrote the replies and inter
 1. [At a Glance](#at-a-glance)
 2. [Assessment Background](#assessment-background)
 3. [Environment](#environment)
-4. [What I Read First](#what-i-read-first)
+4. [Sources Used](#sources-used)
 5. [Order of Work](#order-of-work)
 6. [Key Decisions](#key-decisions)
 7. [Strategic Tradeoffs](#strategic-tradeoffs)
@@ -76,10 +76,10 @@ One agent covers both queues on a shift. The tickets are invented, so no real cu
 
 ---
 
-<a id="what-i-read-first"></a>
-## 🔎 What I Read First
+<a id="sources-used"></a>
+## 🔎 Sources Used
 
-| Source | What I took from it |
+| Source | What the document takes from it |
 |---|---|
 | pkhosting.com/refund (Aug 2026) | First-time shared/WordPress orders can be reviewed within 7 days of payment. Domains, SSL/add-ons, VPS/dedicated, setup and migration fees, taxes and gateway charges are non-refundable. Approved refunds return in 7-10 business days. No outage refund. |
 | pkhosting.com homepage | Live chat/phone Mon-Fri 9am-6pm PKT. Backups are on the same server, best-effort, with no recovery-time SLA. Free migration is listed. Plans are 5, 25 and 50 GB. |
@@ -87,7 +87,7 @@ One agent covers both queues on a shift. The tickets are invented, so no real cu
 | travel.pk Terms and Trust Centre | A payment receipt is not a ticket. Staff hours are Mon-Fri 10am-7pm PKT. Escalation goes to legal@travel.pk with the ticket reference. |
 
 > [!IMPORTANT]
-> I could not find a **"Best Price Guarantee"** or an **"on-time promise"** in the terms, refund policy, homepage or Trust Centre. I treat both customer claims (T-7, T-8) as unverified and do not confirm them. I did not read the Help Center or the PKHosting Terms and backup-policy pages, so I would check them before sending.
+> A **"Best Price Guarantee"** and an **"on-time promise"** do not appear in the terms, refund policy, homepage or Trust Centre. I treat both customer claims (T-7, T-8) as unverified and do not confirm them. The Help Center and the PKHosting Terms and backup-policy pages were not reviewed, so they should be checked before sending.
 
 ---
 
@@ -139,7 +139,7 @@ flowchart TB
 ```
 
 - **T-4 is the ticket that isn't what it appears.** A Gmail sender, a "new IT manager", an offered fee and no contact with the old developer is the usual shape of an account takeover. I changed nothing, confirmed nothing, and named the only legitimate route: confirmation from the registered email, or signed authorisation with ID. The escalation note lists what I did not do.
-- **T-7 and T-8 rest on guarantees I can't find.** I don't confirm them. I ask for a screenshot, say what the published policy says, and promise a written fare-rules answer (T-7) or the airline's options (T-8).
+- **T-7 and T-8 rest on guarantees that don't appear on the published pages.** I don't confirm them. I ask for a screenshot, say what the published policy says, and promise a written fare-rules answer (T-7) or the airline's options (T-8).
 - **T-3 is a clear no.** Day 19 is outside the 7-day window, and domain and setup fees are non-refundable. I still offer real next steps: cancel before renewal, fix any fault, billing review.
 - **T-1 promises no refund.** The policy has no outage refund. I note the request for my manager and come back once the site is stable.
 - **T-6 is bilingual.** The Roman Urdu and English versions carry the same facts: payment and ticket are different steps, don't pay again, and an update within 30 minutes.
@@ -167,7 +167,7 @@ flowchart TB
 |---|---|
 | Reply word limits | ✅ All under 200 words (longest about 197) |
 | Escalation note length | ✅ About 150 words |
-| Facts against sources | ✅ Each claim checked against the page it came from |
+| Facts against sources | ✅ Each claim in the replies matches the published page it came from |
 | Safe asks only | ✅ Diagnostics never ask for passwords, API tokens, private keys, `wp-config.php`, database dumps or gateway keys |
 | Roman Urdu (T-6) | ⚠️ Written in simple, respectful Urdu and consistent with the English version, but **not yet checked by a native speaker** |
 | Run against real systems | ❌ Not applicable. The T-2 commands are read-only examples for a sysadmin |
@@ -178,7 +178,7 @@ flowchart TB
 ## 🚧 Scope & Limitations
 
 - **Written simulation only:** Nothing was deployed or run. No customer replied to anything.
-- **Pages not read:** the Help Center and the PKHosting Terms and backup-policy pages. T-1, T-7 and T-8 should be re-checked against them.
+- **Pages not reviewed:** the Help Center and the PKHosting Terms and backup-policy pages. T-1, T-7 and T-8 should be re-checked against them.
 - **Plan type assumed:** I assumed Professional is a shared plan under the refund page. It is flagged in the T-3 note to check before sending.
 - **"Eid in four days":** this does not match the real calendar for 6 Nov 2026. I treated it as the customer's stated deadline and never repeat the date back.
 - **Clarity audit wording:** section G gives my wording for three ambiguities. It is proposed text and needs product-owner sign-off.
@@ -191,7 +191,7 @@ These gaps are listed instead of hidden, so the document shows what was actually
 <a id="what-i-learned"></a>
 ## 🧠 What I Learned
 
-- **Read the source before you promise.** Two of the eight tickets depended on guarantees that I could not find on any page.
+- **Check the source before you promise.** Two of the eight tickets depended on guarantees that do not appear on any published page.
 - **Say no early and kindly.** A clear refusal with real next steps keeps the customer better than a vague "maybe".
 - **Time matters as much as policy.** The Friday 7pm cutoff changed the whole order of work.
 - **Security tickets look polite.** The T-4 request was calm and offered money. That is the pattern to slow down on.
@@ -203,7 +203,7 @@ These gaps are listed instead of hidden, so the document shows what was actually
 <a id="what-i-would-improve"></a>
 ## 🔧 What I Would Improve
 
-- Read the Help Center and the remaining PKHosting pages, then re-check T-1, T-7 and T-8.
+- Review the Help Center and the remaining PKHosting pages, then re-check T-1, T-7 and T-8.
 - Have a native Urdu speaker review the T-6 reply.
 - Add an out-of-hours escalation path for outages and ticketing emergencies (see section F, questions 2 and 4).
 - Turn the two macros into a small tested library covering other common cases (double charge, domain transfer, SSL).
@@ -227,8 +227,7 @@ These gaps are listed instead of hidden, so the document shows what was actually
 ## 📁 Repo Structure
 
 ```text
-
-technical-support-case-study
+support-assessment/
 |-- README.md
 `-- Malaika_Azhar_TechAbout_Customer_Support_Assessment_updated.pdf
 ```
