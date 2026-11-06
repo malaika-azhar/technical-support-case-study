@@ -71,7 +71,7 @@ One agent covers both queues on a shift. The tickets are invented, so no real cu
 | **Deliverable** | `Malaika_Azhar_TechAbout_Customer_Support_Assessment_updated.pdf` (A4, 6 pages) |
 | **Shift date used** | Friday, 6 November 2026 |
 | **Tools** | Public web pages only. No credentials, private data or paid tools |
-| **Time taken** | 📝 [fill in the real time] |
+| **Time taken** | About 2 hours of active work, in short sessions through the day |
 | **Languages** | English, and Roman Urdu for T-6 |
 
 ---
